@@ -1,0 +1,61 @@
+<!-- Left side column. contains the logo and sidebar -->
+<aside class="main-sidebar">
+
+  <!-- sidebar: style can be found in sidebar.less -->
+  <section class="sidebar">
+
+    <!-- Sidebar Menu -->
+    <ul class="sidebar-menu" data-widget="tree">
+      <!-- Optionally, you can add icons to the links -->
+      <li class="<%= activeIndex === 1 ? 'active' : '' %>">
+        <a href="/">
+          <i class="fa fa-home"></i>
+          <span>首页</span>
+        </a>
+      </li>
+      <li class="<%= activeIndex === 2 ? 'active' : '' %>">
+        <a href="/users">
+          <i class="fa fa-users"></i>
+          <span>用户管理</span>
+        </a>
+      </li>
+      <li class="<%= activeIndex === 3 ? 'active' : '' %>">
+        <a href="/pro">
+          <i class="fa fa-list"></i>
+          <span>产品管理</span>
+        </a>
+      </li>
+      <li class="<%= activeIndex === 4 ? 'active' : '' %>">
+        <a href="/banner">
+          <i class="fa fa-image"></i>
+          <span>轮播图管理</span>
+        </a>
+      </li>
+      <li class="<%= activeIndex === 5 ? 'active' : '' %>">
+        <a href="/cart">
+          <i class="fa fa-shopping-cart"></i>
+          <span>购物车管理</span>
+        </a>
+      </li>
+      <li class="<%= activeIndex === 6 ? 'active' : '' %>">
+        <a href="/order">
+          <i class="fa fa-table"></i>
+          <span>订单管理</span>
+        </a>
+      </li>
+      <!-- <li class="treeview">
+        <a href="#"><i class="fa fa-link"></i> <span>Multilevel</span>
+          <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+        </a>
+        <ul class="treeview-menu">
+          <li><a href="#">Link in level 2</a></li>
+          <li><a href="#">Link in level 2</a></li>
+        </ul>
+      </li> -->
+    </ul>
+    <!-- /.sidebar-menu -->
+  </section>
+  <!-- /.sidebar -->
+</aside>
